@@ -1,0 +1,22 @@
+ArduinoAES256
+
+A small test/demo project based on "A byte-oriented AES-256 implementation" by Ilya
+http://www.literatecode.com/2007/11/11/aes256/
+This is implementation of his code tested on an Arduino Duemilanove
+
+===== smanders integration for RaspberryPi =========
+
+Here I just created a main.cpp file that creates a command line interface into the
+aes256 code.  I'm not sure this code is 100% aes compliant but I was able to get
+it working.  This works in conjuction with the Arduino and the iPhone App that
+opens/checks status of your garagedoor.
+
+Build:
+To create your aes256_decrypt executable
+Run "make"
+
+Install:
+To install just really just copies the aes256_decrypt to the
+php_code dir.
+Run "make install"
+
